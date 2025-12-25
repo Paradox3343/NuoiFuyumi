@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nuôi Tôi - Nền tảng ủng hộ minh bạch 100%. Mọi đồng tiền đều được sao kê công khai.">
+  <meta name="keywords" content="donate, ủng hộ, quyên góp, minh bạch, sao kê">
+  <meta name="author" content="Fuyumi">
+
+
+  <title>Nuôi Tôi - Ủng hộ minh bạch 100%</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+  <!-- Skip to content -->
+  <a href="#main" class="skip-link">Chuyển đến nội dung chính</a>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <i class="ri-heart-pulse-line"></i>
+        <span>Nuôi Tôi</span>
+      </a>
+      <ul class="nav__menu">
+        <li><a href="#about" class="nav__link">Về tôi</a></li>
+        <li><a href="#transparency" class="nav__link">Sao kê</a></li>
+        <li><a href="#donate" class="nav__link nav__link--cta">Ủng hộ</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge">Minh bạch 100%</span>
+        <h1 class="hero__title">
+          Ủng hộ tôi,<br>
+          <span class="hero__title--highlight">không hối hận</span>
+        </h1>
+        <p class="hero__description">
+          Mọi đồng tiền bạn gửi đều được sao kê công khai.
+          Không lấp liếm, không mập mờ, không biến mất bí ẩn.
+        </p>
+        <div class="hero__actions">
+          <a href="#donate" class="btn btn--primary">
+            <i class="ri-hand-heart-line"></i>
+            Ủng hộ ngay
+          </a>
+          <a href="#transparency" class="btn btn--outline">
+            <i class="ri-file-list-3-line"></i>
+            Xem sao kê
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__value" data-count="127">0</span>
+            <span class="stat__label">Người ủng hộ</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="100" data-suffix="%">0%</span>
+            <span class="stat__label">Minh bạch</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="365" data-suffix=" ngày">0 ngày</span>
+            <span class="stat__label">Hoạt động</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card">
+          <div class="hero__card-header">
+            <i class="ri-seedling-line"></i>
+            <span>Đang phát triển</span>
+          </div>
+          <div class="hero__card-body">
+            <div class="progress-ring">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" class="progress-ring__bg"/>
+                <circle cx="50" cy="50" r="45" class="progress-ring__fill" stroke-dasharray="283" stroke-dashoffset="70"/>
+              </svg>
+              <span class="progress-ring__text">75%</span>
+            </div>
+            <p>Mục tiêu tháng này</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Giới thiệu</span>
+        <h2 class="section-title">Tại sao nên nuôi tôi?</h2>
+        <p class="section-subtitle">
+          Không phải ai cũng xứng đáng được ủng hộ. Nhưng tôi thì có.
+        </p>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__card">
+          <div class="about__icon">
+            <i class="ri-eye-line"></i>
+          </div>
+          <h3>Minh bạch tuyệt đối</h3>
+          <p>Mọi giao dịch đều được ghi nhận và công khai. Bạn có thể kiểm tra bất cứ lúc nào.</p>
+        </div>
+
+        <div class="about__card">
+          <div class="about__icon">
+            <i class="ri-time-line"></i>
+          </div>
+          <h3>Cập nhật hàng ngày</h3>
+          <p>Sao kê được cập nhật tự động mỗi ngày lúc 6h sáng. Không delay, không chậm trễ.</p>
+        </div>
+
+        <div class="about__card">
+          <div class="about__icon">
+            <i class="ri-mail-send-line"></i>
+          </div>
+          <h3>Biên lai tự động</h3>
+          <p>Sau khi donate, bạn sẽ nhận được email xác nhận cùng biên lai chi tiết.</p>
+        </div>
+
+        <div class="about__card">
+          <div class="about__icon">
+            <i class="ri-customer-service-2-line"></i>
+          </div>
+          <h3>Hỗ trợ 24/7</h3>
+          <p>Có thắc mắc? Liên hệ bất cứ lúc nào. Kể cả 3 giờ sáng (nhưng sẽ trả lời sau).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Section -->
+  <section class="comparison">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">So sánh</span>
+        <h2 class="section-title">Tôi khác gì "người khác"?</h2>
+      </div>
+
+      <div class="comparison__table">
+        <div class="comparison__row comparison__row--header">
+          <div class="comparison__cell">Tiêu chí</div>
+          <div class="comparison__cell comparison__cell--highlight">Nuôi Tôi</div>
+          <div class="comparison__cell">Người khác</div>
+        </div>
+
+        <div class="comparison__row">
+          <div class="comparison__cell">Sao kê chi tiêu</div>
+          <div class="comparison__cell comparison__cell--highlight">
+            <i class="ri-check-line"></i> Hàng ngày
+          </div>
+          <div class="comparison__cell">
+            <i class="ri-close-line"></i> "Sẽ có sau"
+          </div>
+        </div>
+
+        <div class="comparison__row">
+          <div class="comparison__cell">Độ minh bạch</div>
+          <div class="comparison__cell comparison__cell--highlight">
+            <i class="ri-check-line"></i> 100%
+          </div>
+          <div class="comparison__cell">
+            <i class="ri-close-line"></i> "Tin tôi đi"
+          </div>
+        </div>
+
+        <div class="comparison__row">
+          <div class="comparison__cell">Mục đích sử dụng</div>
+          <div class="comparison__cell comparison__cell--highlight">
+            <i class="ri-check-line"></i> Công khai rõ ràng
+          </div>
+          <div class="comparison__cell">
+            <i class="ri-close-line"></i> "Từ thiện"
+          </div>
+        </div>
+
+        <div class="comparison__row">
+          <div class="comparison__cell">Phản hồi</div>
+          <div class="comparison__cell comparison__cell--highlight">
+            <i class="ri-check-line"></i> Trong ngày
+          </div>
+          <div class="comparison__cell">
+            <i class="ri-close-line"></i> Không liên lạc được
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transparency Section -->
+  <section id="transparency" class="transparency">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Sao kê</span>
+        <h2 class="section-title">Tiền của bạn đi đâu?</h2>
+        <p class="section-subtitle">
+          Chi tiết phân bổ chi tiêu hàng tháng
+        </p>
+      </div>
+
+      <div class="transparency__content">
+        <div class="transparency__chart">
+          <div class="donut-chart">
+            <svg viewBox="0 0 160 160">
+  <!-- 10% Ăn uống -->
+  <circle cx="80" cy="80" r="60" class="donut-segment"
+          stroke-dasharray="37.7 339.3"
+          stroke-dashoffset="0"
+          style="--color: var(--color-primary)" />
+
+  <!-- 30% Điện nước -->
+  <circle cx="80" cy="80" r="60" class="donut-segment"
+          stroke-dasharray="113.1 263.9"
+          stroke-dashoffset="-37.7"
+          style="--color: var(--color-secondary)" />
+
+  <!-- 10% Đầu tư -->
+  <circle cx="80" cy="80" r="60" class="donut-segment"
+          stroke-dasharray="37.7 339.3"
+          stroke-dashoffset="-150.8"
+          style="--color: var(--color-accent)" />
+
+  <!-- 30% Học tập -->
+  <circle cx="80" cy="80" r="60" class="donut-segment"
+          stroke-dasharray="113.1 263.9"
+          stroke-dashoffset="-188.5"
+          style="--color: var(--color-muted)" />
+
+  <!-- 20% Tiết kiệm -->
+  <circle cx="80" cy="80" r="60" class="donut-segment"
+          stroke-dasharray="75.4 301.6"
+          stroke-dashoffset="-301.6"
+          style="--color: var(--color-info)" />
+</svg>
+
+          </div>
+        </div>
+
+        <div class="transparency__breakdown">
+          <div class="breakdown-item">
+            <div class="breakdown-item__color" style="--bg: var(--color-primary)"></div>
+            <div class="breakdown-item__info">
+              <span class="breakdown-item__label">Ăn uống</span>
+              <span class="breakdown-item__desc">Cơm, phở, bún, mì...</span>
+            </div>
+            <span class="breakdown-item__value">10%</span>
+          </div>
+
+          <div class="breakdown-item">
+            <div class="breakdown-item__color" style="--bg: var(--color-secondary)"></div>
+            <div class="breakdown-item__info">
+              <span class="breakdown-item__label">Điện, nước, internet</span>
+              <span class="breakdown-item__desc">Bills hàng tháng</span>
+            </div>
+            <span class="breakdown-item__value">30%</span>
+          </div>
+
+          <div class="breakdown-item">
+            <div class="breakdown-item__color" style="--bg: var(--color-accent)"></div>
+            <div class="breakdown-item__info">
+              <span class="breakdown-item__label">Đầu tư cho tương lai</span>
+              <span class="breakdown-item__desc">Quỹ tương lai</span>
+            </div>
+            <span class="breakdown-item__value">10%</span>
+          </div>
+
+          <div class="breakdown-item">
+            <div class="breakdown-item__color" style="--bg: var(--color-muted)"></div>
+            <div class="breakdown-item__info">
+              <span class="breakdown-item__label">Học tập</span>
+              <span class="breakdown-item__desc">Khóa học, sách vở, Học phí</span>
+            </div>
+            <span class="breakdown-item__value">30%</span>
+          </div>
+
+          <div class="breakdown-item">
+            <div class="breakdown-item__color" style="--bg: var(--color-info)"></div>
+            <div class="breakdown-item__info">
+              <span class="breakdown-item__label">Tiết kiệm & Khác</span>
+              <span class="breakdown-item__desc">Dự phòng, giải trí</span>
+            </div>
+            <span class="breakdown-item__value">20%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="transparency__update">
+        <i class="ri-refresh-line"></i>
+        <span>Cập nhật lần cuối: <time datetime="2025-12-25">Hôm nay, 06:00 AM</time></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Section -->
+  <section id="donate" class="donate">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Ủng hộ</span>
+        <h2 class="section-title">Chọn cách ủng hộ</h2>
+        <p class="section-subtitle">
+          Mọi đóng góp đều được ghi nhận và trân trọng
+        </p>
+      </div>
+
+      <div class="donate__methods">
+        <!-- QR Bank Vietnam -->
+        <div class="donate__card">
+          <div class="donate__card-header">
+            <i class="ri-bank-line"></i>
+            <h3>Chuyển khoản ngân hàng</h3>
+            <span class="donate__tag">Việt Nam</span>
+          </div>
+          <div class="donate__card-body">
+            <div class="qr-container">
+              <img src="https://files.catbox.moe/f9ur9e.png" alt="QR Chuyển khoản Vietcombank" class="qr-image" width="200" height="200" loading="lazy">
+			    
+            </div>
+            <div class="bank-info">
+              <div class="bank-info__row">
+                <span class="bank-info__label">Ngân hàng</span>
+                <span class="bank-info__value">Vietcombank Bank</span>
+              </div>
+              <div class="bank-info__row">
+                <span class="bank-info__label">Số tài khoản</span>
+                <span class="bank-info__value copyable" data-copy="1041776857">
+                  1041776857
+                  <i class="ri-file-copy-line"></i>
+                </span>
+              </div>
+              <div class="bank-info__row">
+                <span class="bank-info__label">Nội dung CK</span>
+                <span class="bank-info__value copyable" data-copy="NUOITOI">
+                  NUOITOI [Tên của bạn]
+                  <i class="ri-file-copy-line"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+
+        <!-- Momo -->
+        <div class="donate__card">
+          <div class="donate__card-header">
+            <img src="https://static.momocdn.net/app/img/payment/logo.png" alt="Momo" class="donate__card-logo" width="24" height="24">
+            <h3>Momo</h3>
+            <span class="donate__tag">Việt Nam</span>
+          </div>
+          <div class="donate__card-body">
+            <div class="momo-preview">
+              <div class="momo-icon">
+                <img src="https://static.momocdn.net/app/img/payment/logo.png" alt="Momo Logo" width="80" height="80">
+              </div>
+              <p>Chuyển tiền nhanh qua ví Momo</p>
+            </div>
+            <a href="https://me.momo.vn/lDI6TWsAiNfMFOI5C6UZFK" target="_blank" rel="noopener" class="btn btn--momo">
+              <i class="ri-external-link-line"></i>
+              Mở Momo
+            </a>
+          </div>
+        </div>
+		 <!-- Mascot -->
+		<div class="donate__card donate__card--mascot">
+		<div class="donate__card-body donate__card-body--mascot">
+			<img
+				src="https://tse2.mm.bing.net/th/id/OIP.v1CIxwaCILlmsbkuqB1YhAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+				alt="Mascot Nuôi Tôi"
+				class="mascot-image"
+			/>
+			<p class="mascot-text">Quét QR bên trái để nuôi tôi 🥺</p>
+		</div>
+	</div>
+
+
+        
+       
+      </div>
+
+      <!-- Message -->
+      <div class="donate__message">
+        <div class="donate__message-icon">
+          <i class="ri-heart-3-line"></i>
+        </div>
+        <div class="donate__message-content">
+          <h4>Lời nhắn từ tôi</h4>
+          <p>
+            Cảm ơn bạn đã đọc đến đây. Dù bạn có donate hay không,
+            tôi vẫn rất trân trọng. Nếu bạn muốn ủng hộ, bất kể
+            số tiền nào cũng đều có ý nghĩa với tôi.
+            <strong>Mọi đồng tiền đều được sử dụng đúng mục đích.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">
+            <i class="ri-heart-pulse-line"></i>
+            <span>Nuôi Tôi</span>
+          </a>
+          <p>Nền tảng ủng hộ với cam kết minh bạch 100%. Mọi giao dịch đều được công khai.</p>
+        </div>
+
+        <div class="footer__links">
+          <div class="footer__group">
+            <h5>Liên kết</h5>
+            <ul>
+              <li><a href="#about">Về tôi</a></li>
+              <li><a href="#transparency">Sao kê</a></li>
+              <li><a href="#donate">Ủng hộ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__group">
+            <h5>Liên hệ</h5>
+            <ul>
+              <li>
+                <a href="mailto:thuthuyn871@gmail.com">
+                  <i class="ri-mail-line"></i>
+                  thuthuyn871@gmail.com
+                </a>
+              </li>
+              <li>
+                <a href="facebook.com/nguyen.thu.thuy.459039" target="_blank" rel="noopener">
+                  <i class="ri-facebook-circle-line"></i>
+                  Facebook
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Nuôi Tôi. Made with ❤️ in Vietnam.</p>
+        <p class="footer__disclaimer">
+          Đây là trang web mang tính chất cá nhân.
+          Mọi thông tin sao kê đều là thật và có thể kiểm chứng.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
