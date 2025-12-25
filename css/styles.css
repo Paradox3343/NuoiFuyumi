@@ -608,8 +608,23 @@ button {
 =================================== */
 .comparison {
   padding: var(--space-20) 0;
-  background: var(--color-bg);
+
+  /* Cho section cao hơn để ảnh có đất hiển thị */
+  min-height: 100vh;
+
+  /* Background image + overlay */
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.14),
+      rgba(255, 255, 255, 0.14)
+    ),
+    url("https://r2.chiikawawallpaper.com/wallpaper/wallpaper/role/20250828210036_2c7412fa9c29fd8b4f237a97313f8076-1920.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 .comparison__table {
   max-width: 800px;
@@ -666,7 +681,21 @@ button {
 =================================== */
 .transparency {
   padding: var(--space-20) 0;
-  background: var(--color-white);
+
+  /* Cho section cao hơn để ảnh có đất hiển thị */
+  min-height: 100vh;
+
+  /* Background image + overlay */
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.14),
+      rgba(255, 255, 255, 0.14)
+    ),
+    url("https://r2.chiikawawallpaper.com/wallpaper/wallpaper/4k/cd8e2bf0c22b19718a17b352bc826337-1920.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .transparency__content {
@@ -773,8 +802,23 @@ button {
 =================================== */
 .donate {
   padding: var(--space-20) 0;
-  background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-white) 100%);
+
+  /* Cho section cao hơn để ảnh có đất hiển thị */
+  min-height: 100vh;
+
+  /* Background image + overlay */
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.14),
+      rgba(255, 255, 255, 0.14)
+    ),
+    url("https://r2.chiikawawallpaper.com/wallpaper/wallpaper/20250714/687511b42d0c4.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+/* https://r2.chiikawawallpaper.com/wallpaper/wallpaper/20250714/687511b42d0c4.jpeg */
 
 .donate__methods {
   display: grid;
@@ -1313,5 +1357,6 @@ button {
   font-size: 0.95rem;
   color: var(--color-text-muted);
 }
+
 
 
